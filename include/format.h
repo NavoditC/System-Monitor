@@ -4,7 +4,9 @@
 #include <string>
 
 namespace Format {
-std::string ElapsedTime(long times);  // TODO: See src/format.cpp
-};                                    // namespace Format
+std::string number_to_string(long n);
+std::string ElapsedTime(long times);  
+
+};                                    
 
 #endif
